@@ -22,25 +22,30 @@ A beautiful, environmentally-themed React application that gamifies environmenta
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <your-repo-url>
    cd sih-ecogame
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Set up Firebase**
+
    - Go to [Firebase Console](https://console.firebase.google.com/)
    - Create a new project or use an existing one
    - Enable Authentication and add Email/Password and Google sign-in methods
    - Get your Firebase configuration
 
 4. **Configure Firebase**
+
    - Open `src/firebase/config.js`
    - Replace the placeholder values with your actual Firebase configuration:
+
    ```javascript
    const firebaseConfig = {
      apiKey: "your-actual-api-key",
@@ -48,11 +53,12 @@ A beautiful, environmentally-themed React application that gamifies environmenta
      projectId: "your-actual-project-id",
      storageBucket: "your-project-id.appspot.com",
      messagingSenderId: "your-actual-sender-id",
-     appId: "your-actual-app-id"
+     appId: "your-actual-app-id",
    };
    ```
 
 5. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -64,6 +70,7 @@ A beautiful, environmentally-themed React application that gamifies environmenta
 ## 🎨 Design Features
 
 ### Color Palette
+
 - **Primary Green**: #2d5a27 (Forest green)
 - **Secondary Green**: #4a7c59 (Medium green)
 - **Light Green**: #7fb069 (Bright green)
@@ -72,6 +79,7 @@ A beautiful, environmentally-themed React application that gamifies environmenta
 - **Sky Blue**: #87ceeb (Sky blue)
 
 ### UI Components
+
 - **Eco Cards**: Glass-morphism effect with subtle shadows
 - **Floating Icons**: Animated environmental icons
 - **Gradient Buttons**: Beautiful gradient effects with hover animations
@@ -88,6 +96,7 @@ A beautiful, environmentally-themed React application that gamifies environmenta
 ## 📱 Responsive Design
 
 The app is fully responsive and optimized for:
+
 - **Desktop**: Full-featured experience with side-by-side layouts
 - **Tablet**: Adapted layouts with touch-friendly interactions
 - **Mobile**: Stacked layouts with mobile-optimized navigation
@@ -140,11 +149,13 @@ sih-ecogame/
 ## 🔧 Customization
 
 ### Adding New Features
+
 - Add new components in the `src/components/` directory
 - Update the main App.jsx to include new sections
 - Use the established color palette for consistency
 
 ### Styling
+
 - Modify CSS variables in `src/index.css` for global color changes
 - Add new utility classes following the `.eco-*` naming convention
 - Use the existing component structure for consistency
@@ -152,6 +163,7 @@ sih-ecogame/
 ## 🚀 Deployment
 
 1. **Build the project**
+
    ```bash
    npm run build
    ```
@@ -177,7 +189,7 @@ sih-ecogame/
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](LICENSE). Made with love
 
 ---
 
